@@ -8,6 +8,6 @@ app.use(photoRoutes);
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.listen(process.env.PORT || 3000, ()=> {
+app.listen(process.env.PORT || 3001, ()=> {
     console.log(`app is running`);
 })
